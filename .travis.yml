@@ -2,6 +2,14 @@ language: node_js
 node_js: 
   - node
 dist: bionic
+
+notifications:
+  email:
+    recipients:
+      - gionnieve.lim@ncs.com.sg
+    on_success: always
+    on_failure: always
+    
 sudo: required
 
 branches:
